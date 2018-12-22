@@ -1,12 +1,12 @@
 %define		plugin	tagbar
 Summary:	Vim plugin: Display tags of the current file ordered by scope
 Name:		vim-plugin-%{plugin}
-Version:	2.6.1
+Version:	2.7
 Release:	1
 License:	Vim
 Group:		Applications/Editors/Vim
 Source0:	https://github.com/majutsushi/tagbar/archive/v%{version}.tar.gz
-# Source0-md5:	0a28386cab4e30c262358ca8326e2c17
+# Source0-md5:	aacb0d94f7d8e66afde9135c137cbae1
 URL:		http://majutsushi.github.com/tagbar/
 Requires:	ctags
 Requires:	vim-rt >= 4:7.4.0
